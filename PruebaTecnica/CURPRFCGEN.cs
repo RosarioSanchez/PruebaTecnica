@@ -28,30 +28,6 @@ namespace PruebaTecnica
         public String CadenaDatos { get; set; }
         private int count { get; set; }
 
-     
-
-        public void ConsultaRFC()
-        {
-            try
-            {
-
-                DataSet ds = new DataSet();
-                DataTable dt = new DataTable("Datos");
-                dt.Columns.Add(new DataColumn("RFC", typeof(string)));
-                dt.Columns.Add(new DataColumn("CURP", typeof(string)));
-
-                DataRow dr = dt.NewRow();
-                dr["CURP"] = Get_CURP(this.Nombre, this.APaterno, this.AMaterno, this.Sexo, this.FechaNacimiento, this.EntidadFederativa);
-                dt.Rows.Add(dr);
-                ds.Tables.Add(dt);
-            }
-            catch (Exception ex)
-            {
-                //this.Respuesta.Mensaje = ex.Message.ToString();
-            }
-
-            //return this.Respuesta;
-        }
 
         public String Get_CURP(String Nombre, String APaterno, String AMaterno, String Sexo, String FechaNacimiento, String EntidadFederativa)
         {
@@ -69,7 +45,7 @@ namespace PruebaTecnica
                                     "KAKA","KULO", "MAME", "MAMO", "MEAR", "MEAS", "MEON", "MION", "COJE", "COJI", "COJO", "CULO",
                                     "FETO", "GUEY","JOTO", "KACA", "KACO", "KAGA", "KAGO", "MOCO", "MULA", "PEDA", "PEDO", "PENE",
                                     "PUTA", "PUTO", "QULO","RATA", "RUIN", "GATA", "GATO"};
-            //String[] nomnovalidos = {"MA.", "LA", "LAS", "MC", "VON", "DEL", "LOS", "Y", "MAC", "YAROT" };
+            
             String[] nomnovalidos = { "JOSE", "JOSÉ", "MARIA", "MA.", "MA", "LA", "LAS", "MC", "VON", "DEL", "LOS", "Y", "MAC", "YAROT" };
             String[] apnovalidos = { "DEL", "DE", "LAS", "LA", "MC", "VON", "DEL", "MAC", "VAN", "LOS", "EK", "ES", "Y" };
             String consonanteap = ""; String consonanteam = "";

@@ -13,7 +13,6 @@ namespace PruebaTecnica
     {
         public static DataSet Coneccion(string cmd)
         {
-            //string connetionString = "server=LAPTOP-7UC3QP31;database=BasePruebaTecnica;Trusted_Connection=True;";
             string connetionString = "Data Source=sql7002.site4now.net;Initial Catalog = DB_A45724_PruebaTecnica; User ID = DB_A45724_PruebaTecnica_admin; Password = Rous1234.";
             SqlConnection Con = new SqlConnection(connetionString);
             Con.Open();
@@ -21,7 +20,6 @@ namespace PruebaTecnica
             SqlDataAdapter DP = new SqlDataAdapter(cmd, Con);
             DP.Fill(DS);
             Con.Close();
-
             return DS;
         }
     }

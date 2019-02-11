@@ -27,3 +27,13 @@ F:\Proyecto\Prueba\PruebaTecnica\obj\Debug\PruebaTecnica.csproj.GenerateResource
 F:\Proyecto\Prueba\PruebaTecnica\obj\Debug\PruebaTecnica.csproj.CoreCompileInputs.cache
 F:\Proyecto\Prueba\PruebaTecnica\obj\Debug\PruebaTecnica.exe
 F:\Proyecto\Prueba\PruebaTecnica\obj\Debug\PruebaTecnica.pdb
+F:\Proyecto\PruebaTecnica\PruebaTecnica\PruebaTecnica\bin\Debug\PruebaTecnica.exe.config
+F:\Proyecto\PruebaTecnica\PruebaTecnica\PruebaTecnica\bin\Debug\PruebaTecnica.exe
+F:\Proyecto\PruebaTecnica\PruebaTecnica\PruebaTecnica\bin\Debug\PruebaTecnica.pdb
+F:\Proyecto\PruebaTecnica\PruebaTecnica\PruebaTecnica\obj\Debug\PruebaTecnica.csprojAssemblyReference.cache
+F:\Proyecto\PruebaTecnica\PruebaTecnica\PruebaTecnica\obj\Debug\PruebaTecnica.Form1.resources
+F:\Proyecto\PruebaTecnica\PruebaTecnica\PruebaTecnica\obj\Debug\PruebaTecnica.Properties.Resources.resources
+F:\Proyecto\PruebaTecnica\PruebaTecnica\PruebaTecnica\obj\Debug\PruebaTecnica.csproj.GenerateResource.cache
+F:\Proyecto\PruebaTecnica\PruebaTecnica\PruebaTecnica\obj\Debug\PruebaTecnica.csproj.CoreCompileInputs.cache
+F:\Proyecto\PruebaTecnica\PruebaTecnica\PruebaTecnica\obj\Debug\PruebaTecnica.exe
+F:\Proyecto\PruebaTecnica\PruebaTecnica\PruebaTecnica\obj\Debug\PruebaTecnica.pdb
