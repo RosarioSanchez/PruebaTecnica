@@ -47,7 +47,7 @@ namespace PruebaTecnica
             }
             catch (Exception error)
             {
-                
+                MessageBox.Show("Llenar Todos Los Campos", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
         private void txtFechaNac_TextChanged(object sender, EventArgs e)
@@ -99,7 +99,7 @@ namespace PruebaTecnica
             }
             catch (Exception error)
             {
-               
+                
             }
         }
         public void CargarSexo()
