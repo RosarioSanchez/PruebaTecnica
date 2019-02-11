@@ -44,14 +44,11 @@ namespace PruebaTecnica
                 {
                     MessageBox.Show("TU REGISTRO FALLO", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
-                MessageBox.Show(Codigo);
-
             }
             catch (Exception error)
             {
                 
             }
-
         }
         private void txtFechaNac_TextChanged(object sender, EventArgs e)
         {
