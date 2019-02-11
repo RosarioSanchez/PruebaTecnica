@@ -38,16 +38,17 @@ namespace PruebaTecnica
                 if (Codigo != "" && Codigo != null)
                 {
                     MessageBox.Show("TU REGISTRO FUE EXITOSO", "Correcto", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
-                    
+                    Application.Exit();
                 }
                 else
                 {
                     MessageBox.Show("TU REGISTRO FALLO", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    Application.Exit();
                 }
             }
             catch (Exception error)
             {
-                MessageBox.Show("Llenar Todos Los Campos", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Faltan Campos Por Llenar", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
         private void txtFechaNac_TextChanged(object sender, EventArgs e)
